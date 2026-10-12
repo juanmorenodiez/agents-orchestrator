@@ -1,0 +1,25 @@
+name: data-engineering
+version: 1
+
+agents:
+  - architect
+  - developer
+  - qa-engineer
+  - reviewer
+
+skills:
+  common:
+    - code-review
+    - testing
+    - documentation
+
+  specialized:
+    - sql-optimization
+    - pyspark-development
+    - data-quality
+    - etl-design
+
+policies:
+  require_tests: true
+  require_review: true
+  max_parallel_agents: 3
